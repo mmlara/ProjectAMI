@@ -100,7 +100,7 @@ public class QuestionsGUI extends AppCompatActivity {
         }
         displayOnScreen(hashLinkedToArray(treeControl.getQuestionAndOptions()));
     }
-
+    
     public void test() {
         for (int i = 0; i < 4; i++) {
             TextView a = new TextView(this);
