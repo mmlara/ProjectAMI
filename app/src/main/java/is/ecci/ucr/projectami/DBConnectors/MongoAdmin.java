@@ -35,7 +35,7 @@ public class MongoAdmin {
     //RESTHEART api
     private String URL = "http://ec2-35-164-117-191.us-west-2.compute.amazonaws.com:8080";
     private String DATABASE_NAME = "LifeFinder";
-    private String FINAL_URL = URL+"/"+DATABASE_NAME;
+    private String FINAL_URL = URL+"/"+DATABASE_NAME;   
     private String AUTH_KEY = "Authorization";
     private String JSON_CONTENT_TYPE_KEK = "Content-Type";
     private String JSON_CONTENT_TYPE = "application/json";

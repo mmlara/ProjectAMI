@@ -28,7 +28,7 @@ public class Matrix {
 	static double MISSING = Double.MAX_VALUE; // representation of missing values in the dataset
 
 	// Creates a 0x0 matrix. You should call loadARFF or setSize next.
-	public Matrix() {
+	public Matrix(String path) {
 	}
 
 	// Copies the specified portion of that matrix into this matrix

@@ -24,7 +24,6 @@ public class TreeController {
     /*----------------------------------------CONSTRUCTORS----------------------------------------*/
     public TreeController(){
 
-       // decisionTree = new decisionTree();
     }
 
     public TreeController(Matrix mainMatrix){
@@ -52,11 +51,11 @@ public class TreeController {
 
     /* E: Recibe una respuesta para la pregunta actual, si la respuesta no está dentro de las
                 opciones se toma como valor = NA y se almacena para retroalimentación del banco de
-                preguntas (base de datos).
+                reguntas (base de datos).
     *  S:
     *  R:
     * */
-    public void reply(String[] response){
+    public void reply(String response){
 
     }
 
